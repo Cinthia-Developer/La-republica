@@ -1,0 +1,70 @@
+/*--NOTICIAS ESPECIALES--*/
+@media screen and (max-width:992px){
+    .contacto .formulario{
+        width: 80%;
+    }
+    .contacto span{
+        float: right;
+        text-align: right;
+}
+@media (max-width:700px){
+    .contacto .formulario{
+        width: 100%;
+    }
+    .contacto p{
+        font-size: 15px;
+        text-align:justify;
+    }
+     .contacto span{
+        float: inherit;
+        text-align: inherit;   
+    }
+    .contacto .box li{
+        margin-bottom: 10px;
+    }
+    .contacto button{
+        width: 50%;
+    }
+}
+/*--SECTION TITULAR--*/
+@media (max-width:768px){
+  .titular a {
+    font-size: 20px;
+      padding: 2px;
+      margin: 0;
+    }
+    
+  .photo-portada1{
+      margin-top: 25px;
+    }  
+}
+@media (max-width:768px){
+  .ultimas-noticias .ultimas-img  {
+    width: 100%;
+    margin:0px auto;
+    padding-right: 18px;
+    }
+   .ultimas-noticias .ult-info{
+    margin-top: 10px;
+    margin-left: -14px;
+    margin-right: 6px;
+   }
+   .ultimas-noticias button{
+    display: none;
+   }
+   .fotos-destacadas h4{
+        font-size: 13px;
+   }
+ .fotos-destacadas a{
+        font-size: 13px;
+   }
+}
+
+@media (min-width:768px)and (max-width:1024px){
+   .fotos-destacadas h4{
+        font-size: 20px;
+   }
+ .fotos-destacadas a{
+        font-size: 20px;
+   }
+}
